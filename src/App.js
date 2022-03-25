@@ -2,6 +2,8 @@ import Navbar from 'components/navbar/Navbar';
 import SearchCity from 'components/SearchCity/searchCity';
 import './App.scss'
 import { arrow } from 'assets/images';
+import Explore from 'components/Explore/Explore';
+import AboutUs from 'components/AboutUs/AboutUs';
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
           <img className='details-arrow' src={arrow}/>
         </section>
       </header>
+      <Explore/>
+      <AboutUs/>
     </div>
   );
 }
