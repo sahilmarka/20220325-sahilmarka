@@ -13,7 +13,7 @@ const Navbar = () => {
           <li className='mr-18 p-18'>
             <div className='flex align-center gap-4'>
               <span className='nav-text'>Cities</span>
-              <img src={arrow} />
+              <img src={arrow} src='down arrow'/>
             </div>
           </li>
           <li className='nav-text p-18 call-button'>
