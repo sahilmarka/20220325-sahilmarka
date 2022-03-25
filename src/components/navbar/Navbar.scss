@@ -1,0 +1,63 @@
+
+.flex {
+  display: flex;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+nav {
+  padding-top: 2.4rem;
+  padding-left: 5rem;
+  padding-right: 3.1rem;
+  color: #fff;
+}
+
+.mr-18 {
+  padding-right: 1.8rem;
+}
+
+.p-18 {
+  padding: 4px 24px;
+}
+
+.nav-text {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.logo {
+  font-family: 'Dancing Script';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4.5rem;
+  line-height: 5.4rem;
+  cursor: pointer;
+}
+
+li {
+  list-style-type: none;
+  cursor: pointer;
+}
+
+img {
+  width: 2rem;
+  height: 1.4rem;
+  margin-top: 2px;
+}
+
+.gap-4 {
+  gap: .4rem;
+}
+
+.call-button {
+  border: 2px solid #FFFFFF;
+  border-radius: 10px;
+}

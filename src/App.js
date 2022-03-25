@@ -1,22 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import Navbar from 'components/navbar/Navbar';
+import SearchCity from 'components/SearchCity/searchCity';
+import './App.scss'
+import { arrow } from 'assets/images';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div>
+      <header>
+        <Navbar />
+        <section className='body-container'>
+          <div className='mainHeading'>
+            <p className='mainText'>Rethink your living & renting</p>
+            <p className='subText'>Make your stay painless with us</p>
+          </div>
+          <SearchCity />
+          <img className='details-arrow' src={arrow}/>
+        </section>
       </header>
     </div>
   );
