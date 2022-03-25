@@ -17,7 +17,7 @@ function App() {
             <p className='subText'>Make your stay painless with us</p>
           </div>
           <SearchCity />
-          <img className='details-arrow' src={arrow}/>
+          <img className='details-arrow' alt='down arrow' src={arrow}/>
         </section>
       </header>
       <Explore/>
