@@ -4,6 +4,7 @@ import './App.scss'
 import { arrow } from 'assets/images';
 import Explore from 'components/Explore/Explore';
 import AboutUs from 'components/AboutUs/AboutUs';
+import Footer from 'components/Footer/Footer';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       </header>
       <Explore/>
       <AboutUs/>
+      <Footer/>
     </div>
   );
 }
