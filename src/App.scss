@@ -37,6 +37,35 @@ header {
     height: 100vh;
     z-index: 10;
   }
+  @media (max-width: 499px) {
+    position: fixed;
+    width: 101vw;
+    height: 130vh;
+    z-index: 10;
+  }
+
+  @media only screen and (min-width: 420px) and (max-width: 480px) {
+    position: fixed;
+    width: 110vw;
+    height: 130vh;
+    z-index: 10;
+  }
+
+  @media (max-width: 415px) {
+    position: fixed;
+    width: 115vw;
+    height: 130vh;
+    z-index: 10;
+    
+  }
+
+  @media (max-width: 380px) {
+    position: fixed;
+    width: max-content;
+    height: max-content;
+    z-index: 10;
+  }
+
 }
 
 .mainHeading {
